@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #111;
+}
+/*-------------- Header -----------------*/
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    /* background-color: #111; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    left: 20px;
+    width: 134px;
+}
+.avatar{
+    position: fixed;
+    width: 30px;
+    right: 20px;
+}
+.items{
+    /* margin-left: 113px; */
+    color: white;
+    /* display: flex; */
+    margin: auto;
+    width: 31%;
+    padding: 10px;
+}
+.list{
+    margin-left: 11px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*------------ Banner section -----------*/
+.banner {
+    background-image: url('https://image.tmdb.org/t/p/original/4OTYefcAlaShn6TGVK33UxLW9R7.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #ffff;
+    
+}
+.content {
+    padding-top: 140px;
+    height: 190px;
+    margin-left: 20px;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    height: 80px;
+    max-width: 360px;
+}
+/* .fade{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37,37, 0.61), #111);
+} */
+/*-------------- Movies-list ------------*/
+.row{
+    margin-left: 20px;
+    color: white;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.posters{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.poster{
+    max-height: 260px;
+    margin-right: 10px;
+}
+.small-poster {
+    max-height: 200px;
+    margin-right: 10px;
+
+}
